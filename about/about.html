@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoot the Breeze</title>
+    <link rel="icon" href="../assets/img/favicon/favicon.ico">
+    <link rel="stylesheet" href="./about-styles.css">  
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="../js/jGravity.js"></script>
+    <script>
+        $(document).ready(() => {
+            $('div.jGravity').on('click', () => { 
+                $('body').jGravity({ 
+                    target: 'everything', 
+                    ignoreClass: 'ignoreMe',
+                    weight: 25, 
+                    depth: 5, 
+                    drag: true 
+                });
+                $(this).removeClass('jGravity');
+                $(this).delay(1000).queue(() => {
+                    $(this).html("<h2><a href='http://tinybigideas.com/plugins/jquery-gravity/'>Get jGravity</a></h2>");
+                });
+        
+            });
+        });
+    </script> 
+</head>
+<body onload=display_ct();>
+    <div class="cursor-inner cursor"></div>
+    <div class="cursor-outer cursor"></div>
+   <div class="navbar" > 
+       <a href="../index.html">
+           <div class="logo-head">Shoot the Breeze - Studio <sup class="lanka">(IND)</sup></div>
+       </a>
+       <a class="links"  href="../contact/contact.html">Contact</a>
+       <a class="links" href="../work/work.html">Work</a>
+       <a  class="links"  href="../services/services.html">Services</a>
+       <a class="links"  href="../index.html">Home</a>
+   </div>
+   <div id="myfolio" style="position: fixed; z-index: 999; transform: translateY(-50%); top: 50%;  right: 0">
+    <a href="https://su-jin1425.github.io/My_Portfolio/" target="_blank">
+         <img src="../assets/img/favicon/folio.png" width="53.08" height="171.358">
+    </a>
+</div>
+   <div data-scroll-container>
+    <section class="about-home" id="pin2"  data-scroll-section>
+        <div class="about-home-one" data-scroll data-scroll-speed="2">
+            Propelling your brand
+        </div>
+        <div class="about-circle-one"></div>
+        <div class="about-home-two" data-scroll data-scroll-speed="1">
+            and digital platforms <br>
+            forward
+        </div>
+        <div class="about-sub-text-one">
+            Designing with <br>
+            purpose
+        </div>
+        <div class="about-side-text-one">
+            Many people underestimate <br>
+            the power of exceptional <br>
+            design. (Not you, of course, or <br>
+            you wouldn't be visiting our <br>
+            site). The truth is that it takes <br>
+            more than a great product, a <br>
+            worthy cause, or extraordinary <br>
+            serivces to get noticed. <br>
+        </div>
+        <div class="about-side-text-two">
+            Progressive organizations <br>
+            come to us for brand identities <br>
+            and digital platforms to set <br>
+            their ideas into action - and <br>
+            better the world. We never <br>
+            settle for mediocre (we don't <br>
+            even like writing that word), <br>
+            and neither should you. <br>
+            <br>
+            We set the standard of <br>
+            exceptional design creatively, <br>
+            technically, sustainably, and <br>
+            ethically so that you can make <br>
+            the extraordinary impact <br>
+            that you seek.
+        </div>
+    </section>
+    <section class="about-bottom" id="pin"  data-scroll-section>
+        <div class="filler-bot-about" data-scroll data-scroll-speed="2">
+            <img src="../assets/img/Entire logo.jpg" alt="" class="bot-box-filler">
+        </div>
+        <div class="about-circle-two"></div>
+        <div class="bot-title-one">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            We’re ready to turn up the breeze and<br>
+            set your sails soaring!
+        </div>
+        <img src="../assets/img/svg.png" alt="" class="start-about">
+        <div class="start-mean-text-one">
+            We deliver design with <br>
+            grace, integrity, honesty <br>
+            and vision-in other words, <br>
+            with purpose.
+        </div>
+        <div class="start-mean-text-two">
+            When you do important work and have <br>
+            bold goals to advance, you need a unique <br>
+            brand and website that turns heads, <br>
+            spurs actions, and maybe even wins an <br>
+            awards. But beyond the sparkle, it all <br>
+            needs to be durable, accessible,  <br>
+            sustainable - and easy to maintain.
+        </div>
+    </section>
+    <section class="about-bottom-two" id="pin"  data-scroll-section>
+       <img src="../assets/img/svg.png" alt="" class="bot-two-star"> 
+       <div class="start-bot-text-one">
+        We never compromise on <br>
+        delivering the whole <br>
+        package.
+       </div>
+       <div class="list-text-one">
+        Creative brands <br>
+        that endure <br>
+        <br>
+        Easy to navigate, <br>
+        audience-centric <br>
+        websites <br>
+        <br>
+        Search engine <br>
+        optimization
+       </div>
+       <div class="list-text-two">
+        Design that meets <br>
+        clear accessibility <br>
+        standards <br>
+        <br>
+        Years of user <br>
+        experience <br>
+        expertise <br>
+       </div>
+       <div class="list-text-three">
+        Innovative  <br>
+        designers and <br>
+        technologists <br>
+        <br>
+        An easy-going, <br>
+        thoughtful and <br>
+        helpful team 
+       </div>
+       <img src="../assets/img/Entire 1400x1000.jpg" alt="" class="drift-pic-one" data-scroll data-scroll-speed="2">
+       <img src="../assets/img/circle 400x250.jpg" alt="" class="drift-pic-two">
+    </section>
+    <section class="about-bottom-three" id="pin"  data-scroll-section>
+        <div class="sub-tree-text">
+            The company we keep
+        </div>
+        <div class="circle-tree"></div>
+        <div class="tree-text-comp">
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            The organizations that turn to us<br>
+            are dedicated to shaping a fairer,<br>
+            more sustainable future.
+        </div>
+        <img src="../assets/img/svg.png" alt="" class="pick-one">
+        <div class="pick-text-one">
+            Striving to be
+            inclusive
+        </div>
+        <div class="pick-main-one"> 
+            Shoot the Breeze began <br>
+            as a lively digital studio<br>
+            driven by a passion for a<br>
+            more just and sensible world.<br>
+            We're still all about that mission,<br>
+            dedicated to creating a workplace<br>
+            and partnerships as vibrant and<br>
+            diverse as the communities we love.<br>
+            Let's keep the conversation<br>
+            flowing and the ideas popping!
+        </div>
+        <img src="../assets/img/svg.png" alt="" class="pick-two">
+        <div class="pick-text-two">
+            Committed to <br>
+            design
+        </div>
+        <div class="pick-main-two">
+            At Shoot the Breeze,<br>
+            we're all about making the<br>
+            design world a better place.<br>
+            We dive into the latest design<br>
+            trends and web technologies,<br>
+            all in the name of crafting<br>
+            websites that win awards and<br>
+            turn heads. We're not just<br>
+            keeping up with the times;<br>
+            we're making them look good!
+        </div>
+    </section>
+    <section class="about-bottom-four" id="pin"  data-scroll-section>
+        <div class="circle-tree-two"></div>
+        <div class="title-one-tree">
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            When you colab with Shoot the Breeze <br>
+            for your branding and digital needs,<br>
+            Our Crew is your Crew..!
+        </div>
+        <div class="tree-sub-one">
+            Ready, willing and  <br>
+            able
+        </div>
+        <div class="tree-sub-text-one">
+            Although we admit to a <br>
+            fanatical obsession with <br>
+            design, we're pretty normal <br>
+            otherwise, and our clients tell <br>
+            us we.re remarkably <br>
+            approachable. (Whew)!
+        </div>
+        <div class="tree-sub-text-two">
+            We are a spirited bunch with <br>
+            diverse thoughts and <br>
+            passions, but we all abide by <br>
+            the Code of Ethics <br>
+            and are committed to <br>
+            doing our best work for you <br>
+            while making the process  <br>
+            totally enjoyable.
+        </div>
+        <div class="testi-one-text" data-scroll data-scroll-speed="2">
+            "Collaborating with Shoot the Breeze for our website <br>
+            transformation was a fantastic decision. <br>
+            Their team demonstrated remarkable innovation, attention<br>
+            to detail, and a sophisticated design approach.<br>
+            Our project involved unique challenges, requiring a site<br>
+            that effectively represented our varied offerings and<br>
+            resonated with different user groups. Shoot the Breeze<br>
+            adeptly crafted a sleek, intuitive site that is poised<br>
+            to support our goals for years to come."
+        </div>
+        <div class="test-mean">
+            — Urban Ventures (UK)
+        </div>
+    </section>
+    <section class="about-bottom-six" id="pin"  data-scroll-section>
+        <div class="circle-six-one"></div>
+        <div class="six-title-one">
+            Do we fit for the bill?
+        </div>
+        <div class="six-sub-text-one">
+            We're the right digital studio for you if :
+        </div>
+        <div class="six-side-text-one">
+            You have digital and branding <br>
+            needs that go beyond a <br>
+            brochure or postcard. You are <br>
+            on a mission! <br>
+            <br>
+            You have atleast $5K to   <br>
+            $10K budgeted to allow us to <br>
+            fully help you achieve your  <br>
+            organization's goals and <br>
+            impact.
+        </div>
+        <div class="six-side-text-two">
+        *Note that each project <br>
+        will have unique prices <br>
+        as it could be low or high. <br>
+        <br>
+        So, talk to us to get a <br>
+        quote. <br>
+        <br>
+        If so you seek to build a more <br>
+        than a sustainable, creative <br>
+        and equitable world 
+        </div>
+        <div class="liner-end"></div>
+        <div class="circle-job"></div>
+        <div class="job-title-one">
+            Want to be a part of <em>US </em>?
+        </div>
+        <div class="job-sub-text-one">
+            We’re Looking for Talented Individuals!
+        </div>
+        <div class="job-sub-text-two">
+            Currently, we are looking <br>
+            forward to hire interns. <br>
+            <br>
+            We’re actively seeking<br>
+            talented designers and<br>
+            creative developers to<br>
+            join us remotely.<br>
+        </div>
+        <div class="job-sub-text-three">
+            Also, PlZ visit our <a href="https://su-jin1425.github.io/Coffee_With_Me" target="_blank" class="resume-mail">Contact page</a><br>
+            for updates. We look
+            forward <br>to stay in
+            touch with you.<br>
+            <br>
+            Feel free to send your resume <br>
+            and portfolio any time - <br>
+            <a href="mailto:shoot.the.breeze14@gmail.com" class="resume-mail">Click Here ..</a>!
+        </div>
+    </section>
+      <section class="bottom-seven" id="pin"  data-scroll-section>
+        <div class="contact-ques">Ready to work together?</div>
+        <a href="https://su-jin1425.github.io/Coffee_With_Me" target="_blank" class="contact-btn">Say Hi!</a>
+        <div class="goBtnCentre ignoreMe">
+            <div class="goButton jGravity" onclick="showAlert()">
+             <h2 class="ignoreMe">Click Bait</h2>
+            </div>
+            <div class="box-warn-foot">
+                <p class="warn-text-foot">
+                    Are you sure about this ?
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="bottom-eight" id="pin"  data-scroll-section>
+        <a href="https://www.linkedin.com/in/sujith14/" target="_blank" class="link-one linkin">Linkedin</a>    
+        <a href="https://github.com/su-jin1425" target="_blank" class="link-two linkin">GitHub</a>    
+        <a href="https://www.instagram.com/sujith_1425/" target="_blank" class="link-three linkin">Instagram</a>    
+        <a href="https://www.credly.com/users/su-jin1425" target="_blank" class="link-four linkin">Credly</a> 
+        <a href="https://www.cloudskillsboost.google/public_profiles/f20198b2-2b59-4842-802b-f146e69d4667" target="_blank" class="link-five linkin">QuickLab</a> 
+        <div class="location">
+            Founder’s Social Media Hub
+        </div>
+        <span id='ct' ></span>
+        <a  href="mailto:sujithssd14@gmail.com" class="mail-just">suithssd14@gmail.com</a>
+
+        <div class="logo-foot">Shoot The <span class="redder">Breeze</span></div>
+        <a href="#" class="privacy-btn">Privacy & Policy</a>
+        <a href="#" class="terms-btn">Terms & Conditions</a>
+        <a href="mailto:shoot.the.breeze14@gmail.com" class="chaniru-btn">Become a Team Member</a>
+    </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+     <script>
+    const cursors =['.cursor-inner', '.cursor-outer'],
+      hover_elements = ['a'];
+    var X = 0, Y = 0;
+    var mouse = { x: 0,y: 0 };
+
+    cursors.forEach(el => {
+        el = document.querySelector(el);
+  
+    hover_elements.forEach(item => {
+     item = document.querySelectorAll(item)
+     
+      item.forEach(item_element => {
+           item_element.addEventListener('mouseover', function(){
+                el.classList.add('hover')
+           })
+           
+         item_element.addEventListener('mouseout', function(){
+                el.classList.remove('hover')
+           })
+      })
+    })
+    window.addEventListener("mousemove", function(event) {
+      mouse.x = event.clientX - el.offsetWidth / 2;
+      mouse.y = event.clientY - el.offsetHeight / 2;
+    });
+
+    function move() {
+      X += (mouse.x - X) * 0.05;
+      Y += (mouse.y - Y) * 0.05;
+      let curs_in = document.querySelector('.cursor-inner');
+      
+      if(el == curs_in) {
+          el.style.transform = `matrix(0.1, 0, 0, 0.1, ${X}, ${Y})`;
+          el.style.transition = '0.15s ease-out'
+        
+          if(document.querySelector('.cursor-inner.hover')) {
+              el.style.transform = `matrix(1, 0, 0, 1, ${X}, ${Y})`;
+          }
+      }else{
+          el.style.transform = `matrix(1, 0, 0, 1, ${X}, ${Y})`;
+          
+          if(document.querySelector('.cursor-outer.hover')) {
+              el.style.transform = `matrix(0, 0, 0, 0, ${X}, ${Y})`;
+          }
+      }
+      
+      requestAnimationFrame(move);
+    }
+
+    move();
+    })
+   </script>
+    <script>
+        function showAlert() {
+          var myText = "Yeah - You did it. Okay now refresh the site - as you killed it already...! By : Sujith";
+          alert (myText);
+        }
+    </script>
+    <script>
+        const el = document.querySelector(".logo-foot");
+        let elWidth = el.offsetWidth;
+        let windowWidth = window.innerWidth;
+        let mouseX = 0;
+        let prevMouseX = 0;
+        let skewTarget = 0;
+        let translateTarget = 0;
+        let skewWithEasing = 0; 
+        let translateWithEasing = 0;
+        let skewEasingFactor = 0.1;
+        let translateEasingFactor = 0.05;
+        window.addEventListener("mousemove", handleMouseMove);
+        window.addEventListener("resize", handleWindowResize);
+        function handleMouseMove(e) {
+        mouseX = e.pageX;
+        }
+
+        function handleWindowResize(e) {
+        elWidth = el.offsetWidth;
+        windowWidth = window.innerWidth;
+        }
+
+        function lerp(start, end, factor) {
+        return (1 - factor) * start + factor * end;
+        }
+
+        function animateMe() {
+        skewTarget = mouseX - prevMouseX;
+        prevMouseX = mouseX;
+        translateTarget = (elWidth - windowWidth) / windowWidth * mouseX * -1;
+        skewWithEasing = lerp(skewWithEasing, skewTarget, skewEasingFactor);
+        skewWithEasing = Math.min(Math.max(parseInt(skewWithEasing), -75), 75);
+        translateWithEasing = lerp(
+            translateWithEasing,
+            translateTarget,
+            translateEasingFactor
+        );
+
+        el.style.transform = `
+            translateX(${translateWithEasing}px)
+            skewX(${skewWithEasing}deg)
+        `;
+        window.requestAnimationFrame(animateMe);
+        }
+
+        window.requestAnimationFrame(animateMe);
+
+    </script>
+    <script type="text/javascript"> 
+        function display_c(){
+        var refresh=1000; 
+        mytime=setTimeout('display_ct()',refresh)
+        }
+        
+        function display_ct() {
+        var x = new Date()
+        document.getElementById('ct').innerHTML = x;
+        display_c();
+         }
+    </script>
+    <script>
+        const scroller = new LocomotiveScroll({
+        el: document.querySelector('[data-scroll-container]'),
+        smooth: true
+        });
+    </script>
+</body>
+</html>

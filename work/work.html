@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoot the Breeze</title>
+    <link rel="icon" href="../assets/img/favicon/favicon.ico">
+    <link rel="stylesheet" href="./work-styles.css">  
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="../js/jGravity.js"></script>
+    <script>
+        $(document).ready(() => {
+            $('div.jGravity').on('click', () => { 
+                $('body').jGravity({ 
+                    target: 'everything', 
+                    ignoreClass: 'ignoreMe',
+                    weight: 25, 
+                    depth: 5, 
+                    drag: true 
+                });
+                $(this).removeClass('jGravity');
+                $(this).delay(1000).queue(() => {
+                    $(this).html("<h2><a href='http://tinybigideas.com/plugins/jquery-gravity/'>Get jGravity</a></h2>");
+                });
+            });
+        });
+    </script> 
+</head>
+
+<body onload=display_ct();>
+    <div class="cursor-inner cursor"></div>
+    <div class="cursor-outer cursor"></div>
+   <div class="navbar" > 
+       <a href="../index.html">
+           <div class="logo-head">Shoot the Breeze - Studio <sup class="lanka">(IND)</sup></div>
+       </a>
+       <a class="links"  href="../contact/contact.html">Contact</a>
+       <a  class="links"  href="../about/about.html">About</a>
+       <a class="links" href="../services/services.html">Services</a>
+       <a class="links"  href="../index.html">Home</a>
+   </div>
+   <div id="myfolio" style="position: fixed; z-index: 999; transform: translateY(-50%); top: 50%;  right: 0">
+    <a href="https://su-jin1425.github.io/My_Portfolio/" target="_blank">
+         <img src="../assets/img/favicon/folio.png" width="53.08" height="171.358">
+    </a>
+</div>
+   <div data-scroll-container>
+    <section class="work-home" id="pin2"  data-scroll-section>
+        <div class="circle-work-one"></div>
+        <div class="work-title-one">
+            Work
+        </div>
+        <div class="work-year">
+            (2022 - Present)
+        </div>
+         <div class="row" data-scroll data-scroll-speed="1">
+            <div class="column">
+                <a href="https://my-3d-world-sujin1425.vercel.app/" target="_blank" class="linker">
+                    <div class="col-box">
+                        <img src="../assets/img/3d_world.png" alt="" class="col-fill">
+                    </div>
+                </a> 
+                <div class="col-text-lef">My 3D World</div>
+                <div class="col-text-rig">Blender, Web, Three.JS</div>
+            </div>
+            <div class="column">
+                <a href="#" target="_blank" class="linker">
+                    <div class="col-box">
+                        <img src="../assets/img/ecom.jpg" alt="" class="col-fill">
+                    </div>
+                </a> 
+                <div class="col-text-lef">E-commerce Store</div>
+                <div class="col-text-rig-ali">Strategy, Web, Branding</div>
+            </div>
+        </div>
+    </section>
+    <section class="work-home-two" id="pin"  data-scroll-section>
+        <div class="circle-home-two"></div>
+        <div class="work-two-title-two">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            We've worked with many terrific organizations just like <br>
+            yours. We love sharing what we've created with our client <br>
+            partners because their work is making an impact. We're proud <br>
+            to play a part in amplifying their voice. When they shine, we all <br>
+            shine.
+        </div>
+        <div class="row-two" data-scroll data-scroll-speed="1">
+            <div class="column">
+                <a href="https://su-jin1425.github.io/Beat_Box/" target="_blank" class="linker">
+                    <div class="col-box">
+                        <img src="../assets/img/beat_box.png" alt="" class="col-fill">
+                    </div>
+                </a> 
+                <div class="col-text-lef">Beat Box</div>
+                <div class="col-text-rig">Music, Web, Javascript</div>
+            </div>
+            <div class="column">
+                <a href="https://su-jin1425.github.io/Match_Master_Quest/" target="_blank" class="linker">
+                    <div class="col-box">
+                        <img src="../assets/img/mmq.png" alt="" class="col-fill">
+                    </div>
+                </a> 
+                <div class="col-text-lef">Match Master Quest</div>
+                <div class="col-text-rig-ali">Strategy, Webapp, Javascript</div>
+            </div>
+        </div>
+        <div class="client-circle"></div>
+        <div class="client-text-one">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Each of our clients has a unique story <br>
+            to tell. We can't wait to tell yours.
+        </div>
+    </section>
+    <section class="bottom-seven" id="pin"  data-scroll-section>
+        <div class="contact-ques">Ready to work together?</div>
+        <a href="https://su-jin1425.github.io/Coffee_With_Me" target="_blank" class="contact-btn">Say Hi!</a>
+        <div class="goBtnCentre ignoreMe">
+            <div class="goButton jGravity" onclick="showAlert()">
+             <h2 class="ignoreMe">Click Bait</h2>
+            </div>
+            <div class="box-warn-foot">
+                <p class="warn-text-foot">
+                    Are you sure about this ?
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="bottom-eight" id="pin"  data-scroll-section>
+        <a href="https://www.linkedin.com/in/sujith14/" target="_blank" class="link-one linkin">Linkedin</a>    
+        <a href="https://github.com/su-jin1425" target="_blank" class="link-two linkin">GitHub</a>    
+        <a href="https://www.instagram.com/sujith_1425/" target="_blank" class="link-three linkin">Instagram</a>    
+        <a href="https://www.credly.com/users/su-jin1425" target="_blank" class="link-four linkin">Credly</a> 
+        <a href="https://www.cloudskillsboost.google/public_profiles/f20198b2-2b59-4842-802b-f146e69d4667" target="_blank" class="link-five linkin">QuickLab</a> 
+        <div class="location">
+            Founder’s Social Media Hub
+        </div>
+        <span id='ct' ></span>
+        <a  href="mailto:sujithssd14@gmail.com" class="mail-just">suithssd14@gmail.com</a>
+
+        <div class="logo-foot">Shoot The <span class="redder">Breeze</span></div>
+        <a href="#" class="privacy-btn">Privacy & Policy</a>
+        <a href="#" class="terms-btn">Terms & Conditions</a>
+        <a href="mailto:shoot.the.breeze14@gmail.com" class="chaniru-btn">Become a Team Member</a>
+    </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+     <script>
+    const cursors =['.cursor-inner', '.cursor-outer'],
+      hover_elements = ['a'];
+    var X = 0, Y = 0;
+    var mouse = { x: 0,y: 0 };
+
+    cursors.forEach(el => {
+        el = document.querySelector(el);
+  
+    hover_elements.forEach(item => {
+     item = document.querySelectorAll(item)
+     
+      item.forEach(item_element => {
+           item_element.addEventListener('mouseover', function(){
+                el.classList.add('hover')
+           })
+           
+         item_element.addEventListener('mouseout', function(){
+                el.classList.remove('hover')
+           })
+      })
+    })
+
+    window.addEventListener("mousemove", function(event) {
+      mouse.x = event.clientX - el.offsetWidth / 2;
+      mouse.y = event.clientY - el.offsetHeight / 2;
+    });
+
+    function move() {
+      X += (mouse.x - X) * 0.05; 
+      Y += (mouse.y - Y) * 0.05;
+      let curs_in = document.querySelector('.cursor-inner');
+      
+      if(el == curs_in) {
+          el.style.transform = `matrix(0.1, 0, 0, 0.1, ${X}, ${Y})`;
+          el.style.transition = '0.15s ease-out'
+        
+          if(document.querySelector('.cursor-inner.hover')) {
+              el.style.transform = `matrix(1, 0, 0, 1, ${X}, ${Y})`;
+          }
+      }else{
+          el.style.transform = `matrix(1, 0, 0, 1, ${X}, ${Y})`;
+          
+          if(document.querySelector('.cursor-outer.hover')) {
+              el.style.transform = `matrix(0, 0, 0, 0, ${X}, ${Y})`;
+          }
+      }
+      
+      requestAnimationFrame(move);
+    }
+
+    move();
+    })
+   </script>
+    <script>
+        function showAlert() {
+          var myText = "Yeah - You did it. Okay now refresh the site - as you killed it already...! By : Sujith";
+          alert (myText);
+        }
+    </script>
+    <script>
+        const el = document.querySelector(".logo-foot");
+        let elWidth = el.offsetWidth;
+        let windowWidth = window.innerWidth;
+        let mouseX = 0;
+        let prevMouseX = 0;
+        let skewTarget = 0;
+        let translateTarget = 0;
+        let skewWithEasing = 0; 
+        let translateWithEasing = 0;
+
+        let skewEasingFactor = 0.1;
+        let translateEasingFactor = 0.05;
+
+        window.addEventListener("mousemove", handleMouseMove);
+        window.addEventListener("resize", handleWindowResize);
+        function handleMouseMove(e) {
+        mouseX = e.pageX;
+        }
+
+        function handleWindowResize(e) {
+        elWidth = el.offsetWidth;
+        windowWidth = window.innerWidth;
+        }
+
+        function lerp(start, end, factor) {
+        return (1 - factor) * start + factor * end;
+        }
+
+        function animateMe() {
+        skewTarget = mouseX - prevMouseX;
+        prevMouseX = mouseX;
+        translateTarget = (elWidth - windowWidth) / windowWidth * mouseX * -1;
+        skewWithEasing = lerp(skewWithEasing, skewTarget, skewEasingFactor);
+        skewWithEasing = Math.min(Math.max(parseInt(skewWithEasing), -75), 75);
+        translateWithEasing = lerp(
+            translateWithEasing,
+            translateTarget,
+            translateEasingFactor
+        );
+
+        el.style.transform = `
+            translateX(${translateWithEasing}px)
+            skewX(${skewWithEasing}deg)
+        `;
+        window.requestAnimationFrame(animateMe);
+        }
+
+        window.requestAnimationFrame(animateMe);
+
+    </script>
+    <script type="text/javascript"> 
+        function display_c(){
+        var refresh=1000; 
+        mytime=setTimeout('display_ct()',refresh)
+        }
+        
+        function display_ct() {
+        var x = new Date()
+        document.getElementById('ct').innerHTML = x;
+        display_c();
+         }
+    </script>
+    <script>
+        const scroller = new LocomotiveScroll({
+        el: document.querySelector('[data-scroll-container]'),
+        smooth: true
+        });
+    </script>
+</body>
+</html>

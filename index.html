@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoot the Breeze</title>
+    <link rel="icon" href="assets/img/favicon/favicon.ico">
+    <link rel="stylesheet" href="./styles.css">  
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./js/jGravity.js"></script>
+    <script>
+        $(document).ready(() => {
+            $('div.jGravity').on('click', () => { 
+                $('body').jGravity({ 
+                    target: 'everything',
+                    ignoreClass: 'ignoreMe',
+                    weight: 25,
+                    depth: 5, 
+                    drag: true 
+                });
+                $(this).removeClass('jGravity');
+                $(this).delay(1000).queue(() => {
+                    $(this).html("<h2><a href='http://tinybigideas.com/plugins/jquery-gravity/'>Get jGravity</a></h2>");
+                });
+        
+            });
+        });
+    </script> 
+</head>
+<body onload=display_ct();>
+     <div class="cursor-inner cursor"></div>
+     <div class="cursor-outer cursor"></div>
+    <div class="navbar" > 
+        <a href="index.html">
+            <div class="logo-head">Shoot the Breeze - Studio <sup class="india">(IND)</sup></div>
+        </a>
+        <a class="links"  href="./contact/contact.html">Contact</a>
+        <a  class="links"  href="./about/about.html">About</a>
+        <a class="links" href="./work/work.html">Work</a>
+        <a class="links"  href="./services/services.html">Services</a>
+        
+    </div>
+           <div id="myfolio" style="position: fixed; z-index: 999; transform: translateY(-50%); top: 50%;  right: 0">
+               <a href="https://su-jin1425.github.io/My_Portfolio/" target="_blank">
+                    <img src="assets/img/favicon/folio.png" width="53.08" height="171.358">
+               </a>
+           </div>
+    <div class="mobile-container">
+        <div class="disclamer">
+        Please visit our Website through a computer<br>
+        for a better Experience. 
+    </div>
+    <div class="liner-mob"></div>
+    <div class="title-mob">
+        Shoot the Breeze<br>
+        Innovate.<br>Inspire.<br>Elevate.
+    </div>
+    <div class="liner-mob-two"></div>
+    <div class="services-mob">
+        Here is a quick peek of our serivces:
+    </div>  
+    <div class="services-type">
+        Application Development 🌐<br>
+        📈 Digital Marketing <br>
+        SEO Optimization 🔍<br>
+        🛠️ E-commerce Solutions <br>
+        UI/UX Design 🎨<br>
+        🔒Cloud Services and More!
+    </div>
+    <div class="liner-mob-three"></div>
+    <a href="https://su-jin1425.github.io/Coffee_With_Me/" target="_blank" class="contact-mob">Contact Us →</a>
+    <a href="#" class="terms-btn-mob">Terms & Conditions</a>
+    <a href="#" class="chaniru-btn-mob">Privacy & Policy</a>
+    </div>
+    <div data-scroll-container>
+    <section class="top" id="pin2"  data-scroll-section>
+        <div class="title-home-one" data-scroll data-scroll-speed="2">
+            Shoot The Breeze
+        </div>
+        <div class="title-home-two" data-scroll data-scroll-speed="1">
+            Turning website Dreams<br>into Reality <br>And fueled up by coffee..!
+        </div>
+    </section>
+    <section class="bottom-one" id="pin"  data-scroll-section>
+        <p class="marquee" data-scroll data-scroll-speed="2">
+            <span>
+                Innovate. Inspire. Elevate. Innovate. Inspire. Elevate. Innovate. Inspire. Elevate.
+                Innovate. Inspire. Elevate. Innovate. Inspire. Elevate. Innovate. Inspire. Elevate.
+                Innovate. Inspire. Elevate. Innovate. Inspire. Elevate. Innovate. Inspire. Elevate.
+            </span>
+        </p>  
+        <div class="circle-one"></div>
+        <div class="text-home-one">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Through bold visual identities and digital platforms, we <br> 
+            help progressive organizations advance by setting the <br>
+            standard in exceptional design-creatively, technically, <br>
+            sustainably, and ethically.
+        </div>
+        <div class="text-home-two">
+            Create something <br>
+            with us that <br>
+            matters.
+        </div>
+        <a href="#" class="services-btn">Our Services →</a>
+        <div class="side-text-one">
+            Design influences every <br>
+            aspect of our lives. How we <br>
+            think about and craft our <br>
+            world can make the journey <br>
+            comfortable or more difficult. <br>
+            At Shoot The Breeze Studio, <br>
+            we work with forward-thinking <br>
+            organizations to make a <br>
+            difference. Whether you are <br>
+            advancing your branding, <br>
+            your website, or both, we will <br>
+            help you amplify the <br> 
+            impact of everything you do.
+        </div>
+        <div class="side-text-two">
+            Using future-forward design <br>
+            approaches and technologies, <br> 
+            we will ensure that your site is <br>
+            visible, accessible, and treads <br> 
+            lightly on the environment. <br> 
+            When paired with a rethink <br>
+            of your visual identity and <br> 
+            communications strategy, <br>
+            your organization will <br>
+            achieve whatever sea <br>
+            change it sets out to. Grab <br>
+            some inspiration from <br>
+            a few of our clients below.
+        </div>
+    </section>
+    <section class="bottom-two" id="pin"  data-scroll-section>
+        <div class="circle-two"></div>
+        <div class="recent-title">Recent Works</div>
+        <div class="establish">2022 — Present</div>
+        <a href="" class="view-all">View-all</a>
+        <div class="row" data-scroll data-scroll-speed="1">
+            <div class="column">
+                <a href="https://my-3d-world-sujin1425.vercel.app/" target="_blank" class="linker">
+                    <div class="col-box">
+                        <img src="./assets/img/3d_world.png" alt="" class="col-fill">
+                    </div>
+                </a> 
+                <div class="col-text-lef">My 3D World</div>
+                <div class="col-text-rig">Blender, Web, Three.JS</div>
+            </div>
+            <div class="column">
+                <a href="https://github.com/su-jin1425/Data_Dashboard" target="_blank" class="linker">
+                    <div class="col-box">
+                        <img src="./assets/img/data_dashboard.jpg" alt="" class="col-fill">
+                    </div>
+                </a> 
+                <div class="col-text-lef">Data Dashboard</div>
+                <div class="col-text-rig-ali">Data Analysis, Tableau, PowerBI</div>
+            </div>
+        </div>
+        <div class="row-two" data-scroll data-scroll-speed="1">
+            <div class="column">
+                <a href="#" target="_blank" class="linker">
+                    <div class="col-box">
+                        <img src="./assets/img/ecom.jpg" alt="" class="col-fill">
+                    </div>
+                </a> 
+                <div class="col-text-lef">E-commerce Store</div>
+                <div class="col-text-rig">Strategy, Web, Branding</div>
+            </div>
+            <div class="column">
+                <a href="https://su-jin1425.github.io/Match_Master_Quest/" target="_blank" class="linker">
+                    <div class="col-box">
+                        <img src="./assets/img/mmq.png" alt="" class="col-fill">
+                    </div>
+                </a> 
+                <div class="col-text-lef">Match Master Quest</div>
+                <div class="col-text-rig-ali">Strategy, Webapp, Javascript</div>
+            </div>
+        </div>
+        <div class="row-three" data-scroll data-scroll-speed="1">
+            <div class="column">
+                <a href="https://su-jin1425.github.io/Beat_Box/" target="_blank" class="linker">
+                    <div class="col-box">
+                        <img src="./assets/img/beat_box.png" alt="" class="col-fill">
+                    </div>
+                </a> 
+                <div class="col-text-lef">Beat Box</div>
+                <div class="col-text-rig">Music, Web, Javascript</div>
+            </div>
+            <div class="column">
+                <a href="" target="_blank" class="linker">
+                    <div class="col-box">
+                        <img src="./assets/img/orchestra.jpg" alt="" class="col-fill">
+                    </div>
+                </a> 
+                <div class="col-text-lef">3D Orchestra</div>
+                <div class="col-text-rig-ali">Still under Development</div>
+            </div>
+        </div>
+    </section>
+    <section class="bottom-three" id="pin"  data-scroll-section>
+        <p class="marquee-two" data-scroll data-scroll-speed="2">
+            <span>
+                Quality means doing it right when no one is looking – Henry Ford. 
+                The only way to do great work is to love what you do – Steve Jobs. 
+                Every problem is a gift—without problems we would not grow – Tony Robbins. 
+                The strength of the team is each individual member. The strength of each member is the team – Phil Jackson. 
+            </span>
+        </p> 
+        <div class="circle-three"></div>
+        <div class="text-three-one">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            We prioritize excellence in our methods<br>
+            Just as much as in our creations.
+        </div>
+        <div class="text-green-sub">
+            Sustainable Bytes for a Better Planet
+        </div>
+        <div class="green-sub-text">
+            We aim to develop a web<br>
+            that champions the highest<br>
+            standards of sustainability.<br>
+            We envision an internet<br>
+            that is humane, independent,<br>
+            and accessible to all,<br>
+            crafted with innovative,<br>
+            future-focused technologies<br>
+            powered by renewable energy.<br>
+            Our mission is to enhance the<br>
+            world through our design<br>
+            and development practices.<br>
+        </div>
+        <div class="green-sub-text-two">
+            Ready to explore how we can <br>
+            work together to create <br>
+            something extraordinary? <br>
+            -<a href="https://su-jin1425.github.io/Coffee_With_Me" class="hello" target="_blank">say Hello..!</a> 
+        </div>
+    </section>
+    <section class="bottom-five" id="pin"  data-scroll-section>
+        <div class="circle-four"></div>
+        <div class="recent-reflex">Recent Achievement</div>
+        <img src="./assets/img/svg.png" alt="" class="red-star-one">
+        <div class="star-text-one">
+            It’s not about what you do but how you do it.
+        </div>
+        <div class="text-mean-one">
+            At Shoot the Breeze,<br>
+            we’re proud of our achievements<br>
+            in delivering innovative,<br>
+            sustainable web solutions.<br>
+            Our commitment to excellence<br>
+            and cutting-edge technology<br>
+            has set new standards in<br>
+            the industry, showcasing<br>
+            our ability to create<br>
+            impactful and user-focused designs.<br>
+            We celebrate our success<br>
+            in combining quality with<br>
+            environmental responsibility.<br>
+        </div>
+        <div class="by-who">
+            
+            — Sujith, <br>
+            Founder and CEO - 
+            Shoot The Breeze
+        </div>
+        <div class="block-mount"  data-scroll data-scroll-speed="1">
+            <img src="./assets/img/Entire logo.jpg" alt="" class="mount-fill">
+        </div>
+    </section>
+    <section class="bottom-seven" id="pin"  data-scroll-section>
+        <div class="contact-ques">Ready to work together?</div>
+        <a href="https://su-jin1425.github.io/Coffee_With_Me" target="_blank" class="contact-btn">Say Hi!</a>
+        <div class="goBtnCentre ignoreMe">
+            <div class="goButton jGravity" onclick="showAlert()">
+             <h2 class="ignoreMe">Click Bait</h2>
+            </div>
+            <div class="box-warn-foot">
+                <p class="warn-text-foot">
+                    Are you sure about this ?
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="bottom-eight" id="pin"  data-scroll-section>
+        <a href="https://www.linkedin.com/in/sujith14/" target="_blank" class="link-one linkin">Linkedin</a>    
+        <a href="https://github.com/su-jin1425" target="_blank" class="link-two linkin">GitHub</a>    
+        <a href="https://www.instagram.com/sujith_1425/" target="_blank" class="link-three linkin">Instagram</a>    
+        <a href="https://www.credly.com/users/su-jin1425" target="_blank" class="link-four linkin">Credly</a> 
+        <a href="https://www.cloudskillsboost.google/public_profiles/f20198b2-2b59-4842-802b-f146e69d4667" target="_blank" class="link-five linkin">QuickLab</a> 
+        <div class="location">
+            Founder’s Social Media Hub
+        </div>
+        <span id='ct' ></span>
+        <a  href="mailto:sujithssd14@gmail.com" class="mail-just">suithssd14@gmail.com</a>
+
+        <div class="logo-foot">Shoot The <span class="redder">Breeze</span></div>
+        <a href="#" class="privacy-btn">Privacy & Policy</a>
+        <a href="#" class="terms-btn">Terms & Conditions</a>
+        <a href="mailto:shoot.the.breeze14@gmail.com" class="chaniru-btn">Become a Team Member</a>
+    </section>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+     <script>
+    const cursors =['.cursor-inner', '.cursor-outer'],
+      hover_elements = ['a'];
+    var X = 0, Y = 0;
+    var mouse = { x: 0,y: 0 };
+
+    cursors.forEach(el => {
+        el = document.querySelector(el);
+  
+    hover_elements.forEach(item => {
+     item = document.querySelectorAll(item)
+     
+      item.forEach(item_element => {
+           item_element.addEventListener('mouseover', function(){
+                el.classList.add('hover')
+           })
+           
+         item_element.addEventListener('mouseout', function(){
+                el.classList.remove('hover')
+           })
+      })
+    })
+  
+
+
+    window.addEventListener("mousemove", function(event) {
+      mouse.x = event.clientX - el.offsetWidth / 2;
+      mouse.y = event.clientY - el.offsetHeight / 2;
+    });
+
+    function move() {
+      X += (mouse.x - X) * 0.05; 
+      Y += (mouse.y - Y) * 0.05;
+      let curs_in = document.querySelector('.cursor-inner');
+      
+      if(el == curs_in) {
+          el.style.transform = `matrix(0.1, 0, 0, 0.1, ${X}, ${Y})`;
+          el.style.transition = '0.15s ease-out'
+        
+          if(document.querySelector('.cursor-inner.hover')) {
+              el.style.transform = `matrix(1, 0, 0, 1, ${X}, ${Y})`;
+          }
+      }else{
+          el.style.transform = `matrix(1, 0, 0, 1, ${X}, ${Y})`;
+          
+          if(document.querySelector('.cursor-outer.hover')) {
+              el.style.transform = `matrix(0, 0, 0, 0, ${X}, ${Y})`;
+          }
+      }
+      
+      requestAnimationFrame(move);
+    }
+
+    move();
+    })
+   </script>
+    <script>
+        const el = document.querySelector(".logo-foot");
+        let elWidth = el.offsetWidth;
+        let windowWidth = window.innerWidth;
+        let mouseX = 0;
+        let prevMouseX = 0;
+        let skewTarget = 0;
+        let translateTarget = 0;
+        let skewWithEasing = 0; 
+        let translateWithEasing = 0;
+        let skewEasingFactor = 0.1;
+        let translateEasingFactor = 0.05;
+        window.addEventListener("mousemove", handleMouseMove);
+        window.addEventListener("resize", handleWindowResize);
+        function handleMouseMove(e) {
+        mouseX = e.pageX;
+        }
+
+        function handleWindowResize(e) {
+        elWidth = el.offsetWidth;
+        windowWidth = window.innerWidth;
+        }
+
+        function lerp(start, end, factor) {
+        return (1 - factor) * start + factor * end;
+        }
+
+        function animateMe() {
+        skewTarget = mouseX - prevMouseX;
+        prevMouseX = mouseX;
+        translateTarget = (elWidth - windowWidth) / windowWidth * mouseX * -1;
+        skewWithEasing = lerp(skewWithEasing, skewTarget, skewEasingFactor);
+        skewWithEasing = Math.min(Math.max(parseInt(skewWithEasing), -75), 75);
+        translateWithEasing = lerp(
+            translateWithEasing,
+            translateTarget,
+            translateEasingFactor
+        );
+
+        el.style.transform = `
+            translateX(${translateWithEasing}px)
+            skewX(${skewWithEasing}deg)
+        `;
+        window.requestAnimationFrame(animateMe);
+        }
+
+        window.requestAnimationFrame(animateMe);
+
+    </script>
+     <script>
+        const slider = document.querySelector('.items');
+        let isDown = false;
+        let startX;
+        let scrollLeft;
+    
+        slider.addEventListener('mousedown', (e) => {
+        isDown = true;
+        slider.classList.add('active');
+        startX = e.pageX - slider.offsetLeft;
+        scrollLeft = slider.scrollLeft;
+        });
+        slider.addEventListener('mouseleave', () => {
+        isDown = false;
+        slider.classList.remove('active');
+        });
+        slider.addEventListener('mouseup', () => {
+        isDown = false;
+        slider.classList.remove('active');
+        });
+        slider.addEventListener('mousemove', (e) => {
+        if(!isDown) return;
+        e.preventDefault();
+        const x = e.pageX - slider.offsetLeft;
+        const walk = (x - startX) * 3; 
+        slider.scrollLeft = scrollLeft - walk;
+        console.log(walk);
+        });
+        </script>
+     <script>
+        function showAlert() {
+          var myText = "Yeah - You did it. Okay now refresh the site - as you killed it already...! By : Sujith";
+          alert (myText);
+        }
+    </script>
+    <script type="text/javascript"> 
+        function display_c(){
+        var refresh=1000;
+        mytime=setTimeout('display_ct()',refresh)
+        }
+        
+        function display_ct() {
+        var x = new Date()
+        document.getElementById('ct').innerHTML = x;
+        display_c();
+         }
+    </script>
+        <script>
+            const scroller = new LocomotiveScroll({
+            el: document.querySelector('[data-scroll-container]'),
+            smooth: true
+            });
+       </script>
+</body>
+</html>
